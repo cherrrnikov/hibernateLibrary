@@ -4,5 +4,5 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class PersonDAO {
-    // Здесь будут лежать специфические запросы к БД (с помощью SQL)
+    // Т.к. запросы примитивные, всю работу выполняет Hibernate
 }
